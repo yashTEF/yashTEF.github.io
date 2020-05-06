@@ -1,31 +1,20 @@
 
-## Welcome to Yash's Portfolio
+# Welcome to Yash's Portfolio
 _You can find all the details regarding Interests and other Activities I am currently participating in here._
 
 **[Click here for a link to my github profile](https://github.com/yashTEF)**
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```java
+public class Main{
+public static void main(String args[]){
+int main=0;
+}
+}
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
