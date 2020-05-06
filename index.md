@@ -1,3 +1,6 @@
+---
+title:Portfolio
+---
 # Welcome to Yash's Portfolio
 _You can find all the details regarding Interests and other Activities I am currently participating in here._
 
