@@ -1,31 +1,4 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Yash's Portfolio</title>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Yash Bharatiya!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:yashbharatiya@gmail.com">email</a></li>
-        		<li><a href="https://github.com/yashTEF">github.com/yashTEF</a></li>
-			</ul>
-		</footer>
-	</body>
-</html>
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/yashTEF/yashTEF.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
