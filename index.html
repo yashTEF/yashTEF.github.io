@@ -8,115 +8,146 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            color: #333;
+            color: #ffffff;
+            background-color: #121212;
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
         }
         header {
-            background-color: #f4f4f4;
+            background-color: #1db954;
             padding: 20px;
             text-align: center;
+            border-radius: 8px;
         }
         h1 {
-            color: #2c3e50;
+            color: #ffffff;
         }
         h2 {
-            color: #3498db;
+            color: #1db954;
+        }
+        h3 {
+            color: #1ed760;
         }
         a {
-            color: #3498db;
+            color: #1db954;
             text-decoration: none;
         }
         a:hover {
             text-decoration: underline;
+            color: #1ed760;
         }
         .section {
             margin-bottom: 30px;
+            background-color: #181818;
+            padding: 20px;
+            border-radius: 8px;
         }
-        code {
-            background-color: #f4f4f4;
-            padding: 2px 5px;
-            border-radius: 3px;
+        .job {
+            margin-bottom: 20px;
+            border-left: 3px solid #1db954;
+            padding-left: 15px;
         }
-        pre {
-            background-color: #f4f4f4;
-            padding: 10px;
-            border-radius: 5px;
-            overflow-x: auto;
+        .job-title {
+            font-weight: bold;
+            color: #1ed760;
+        }
+        .job-period {
+            font-style: italic;
+            color: #b3b3b3;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        footer {
+            background-color: #181818;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Welcome to Yash's Portfolio</h1>
-        <p>Discover my interests, activities, and projects</p>
+        <p>Software Engineer | Google Summer of Code Participant</p>
     </header>
 
     <main>
         <section class="section">
             <h2>About Me</h2>
-            <p>Hello! I'm Yash, a passionate developer and technology enthusiast. Here you can find all the details regarding my interests and current activities.</p>
+            <p>Hello! I'm Yash, a passionate software engineer with experience in full-stack development, cloud technologies, and open-source contributions. I've participated in Google Summer of Code twice and currently work at Persistent Systems.</p>
             <p><strong><a href="https://github.com/yashTEF" target="_blank">Check out my GitHub profile</a></strong></p>
         </section>
 
         <section class="section">
-            <h2>Interests</h2>
-            <ul>
-                <li>Web Development</li>
-                <li>Open Source Contributions</li>
-                <li>Machine Learning</li>
-                <li>Data Structures and Algorithms</li>
-            </ul>
-        </section>
-
-        <section class="section">
-            <h2>Current Activities</h2>
-            <ul>
-                <li>Contributing to open-source projects</li>
-                <li>Learning new programming languages</li>
-                <li>Participating in coding competitions</li>
-                <li>Building personal projects</li>
-            </ul>
-        </section>
-
-        <section class="section">
             <h2>Skills</h2>
-            <h3>Markdown</h3>
-            <p>Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for:</p>
-            <pre><code># Header 1
-## Header 2
-### Header 3
+            <ul>
+                <li>Full-stack Development</li>
+                <li>Cloud Technologies (AWS)</li>
+                <li>Database Design and Optimization</li>
+                <li>RESTful API Development</li>
+                <li>SCRUM and Agile Methodologies</li>
+                <li>UI/UX Design</li>
+                <li>Performance Optimization</li>
+                <li>Version Control (Git)</li>
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+            </ul>
+        </section>
 
-- Bulleted
-- List
+        <section class="section">
+            <h2>Professional Experience</h2>
+            
+            <div class="job">
+                <h3 class="job-title">Software Engineer</h3>
+                <p class="job-period">Aug 2022 – Present</p>
+                <p>Persistent Systems, Pune, India</p>
+                <ul>
+                    <li>Collaborated within a SCRUM team to innovate and deliver a robust patient portal platform, facilitating seamless patient-provider interactions.</li>
+                    <li>Engineered database schemas and optimized queries on AWS RDS, enhancing data retrieval efficiency by 30%.</li>
+                    <li>Leveraged AWS services to architect and deploy RESTful APIs, streamlining communication channels and reducing latency by 25%.</li>
+                    <li>Led the design and development of the contract management module, automating workflow processes and reducing manual errors by 50%.</li>
+                    <li>Demonstrated initiative and accountability by taking ownership of the contract management module, ensuring its successful integration into the patient portals platform.</li>
+                </ul>
+            </div>
 
-1. Numbered
-2. List
+            <div class="job">
+                <h3 class="job-title">Google Summer of Code 2023 Participant</h3>
+                <p class="job-period">May 2023 – Sep 2023</p>
+                <p>Eclipse Foundation, Remote, India</p>
+                <ul>
+                    <li>Led enhancement of Eclipse Cargo Tracker project's design and user experience.</li>
+                    <li>Implemented modern design elements and navigation enhancements, boosting user engagement.</li>
+                    <li>Upgraded to Primefaces version 12.0.0, reducing system bugs and improving performance.</li>
+                    <li>Resolved critical bugs, ensuring responsive navigation and mobile-friendly design, enhancing user satisfaction.</li>
+                    <li>Initiated exploration of future UI enhancements and integration of modern tooling for improved functionality.</li>
+                </ul>
+            </div>
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-</code></pre>
-            <p>For more details, see <a href="https://guides.github.com/features/mastering-markdown/" target="_blank">GitHub Flavored Markdown</a>.</p>
-
-            <h3>Java</h3>
-            <p>Here's a sample Java code snippet:</p>
-            <pre><code class="language-java">public class Main {
-    public static void main(String args[]) {
-        int main = 0;
-        System.out.println("Hello, World!");
-    }
-}</code></pre>
+            <div class="job">
+                <h3 class="job-title">Google Summer of Code 2020 Participant</h3>
+                <p class="job-period">May 2020 – Sep 2020</p>
+                <p>Eclipse Foundation, Remote, India</p>
+                <ul>
+                    <li>Implemented SVG Template Export for high-quality image exports.</li>
+                    <li>Enhanced Export Settings for dynamic series selection.</li>
+                    <li>Optimized R-Script Export for performance and visualization.</li>
+                    <li>Integrated Inkscape Templates for consistent export formatting.</li>
+                    <li>Conducted testing, bug fixing, and collaborated for future enhancements.</li>
+                </ul>
+            </div>
         </section>
 
         <section class="section">
             <h2>Projects</h2>
-            <p>Here you can list and describe your projects. For example:</p>
+            <p>Here are some key projects I've worked on:</p>
             <ul>
-                <li><strong>Project 1:</strong> Brief description of the project</li>
-                <li><strong>Project 2:</strong> Brief description of the project</li>
-                <li><strong>Project 3:</strong> Brief description of the project</li>
+                <li><strong>Patient Portal Platform:</strong> A robust system facilitating seamless patient-provider interactions, with optimized database queries and RESTful APIs.</li>
+                <li><strong>Contract Management Module:</strong> An automated workflow system reducing manual errors by 50% in healthcare contract management.</li>
+                <li><strong>Eclipse Cargo Tracker:</strong> Enhanced design and user experience of this open-source project, improving performance and mobile responsiveness.</li>
+                <li><strong>Eclipse Export Functionality:</strong> Implemented high-quality SVG exports and optimized R-Script exports for improved data visualization.</li>
             </ul>
         </section>
     </main>
@@ -124,8 +155,8 @@
     <footer>
         <h2>Contact</h2>
         <p>If you have any questions or would like to collaborate, feel free to reach out!</p>
-        <p>Email: your.email@example.com</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">Your LinkedIn Profile</a></p>
+        <p>Email: <a href="mailto:yashbharatiya@gmail.com">yashbharatiya@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/yash-bharatiya-a285a61a9/" target="_blank">Yash Bharatiya's LinkedIn Profile</a></p>
     </footer>
 </body>
 </html>
