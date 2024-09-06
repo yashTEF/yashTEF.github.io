@@ -43,16 +43,16 @@
             padding: 20px;
             border-radius: 8px;
         }
-        .job {
+        .job, .education {
             margin-bottom: 20px;
             border-left: 3px solid #1db954;
             padding-left: 15px;
         }
-        .job-title {
+        .job-title, .degree {
             font-weight: bold;
             color: #1ed760;
         }
-        .job-period {
+        .job-period, .edu-period {
             font-style: italic;
             color: #b3b3b3;
         }
@@ -70,14 +70,24 @@
 <body>
     <header>
         <h1>Welcome to Yash's Portfolio</h1>
-        <p>Software Engineer | Google Summer of Code Participant</p>
+        <p>Software Engineer | Google Summer of Code Participant | Graduate Student</p>
     </header>
 
     <main>
         <section class="section">
             <h2>About Me</h2>
-            <p>Hello! I'm Yash, a passionate software engineer with experience in full-stack development, cloud technologies, and open-source contributions. I've participated in Google Summer of Code twice and currently work at Persistent Systems.</p>
+            <p>Hello! I'm Yash, a passionate software engineer with experience in full-stack development, cloud technologies, and open-source contributions. I've participated in Google Summer of Code twice and currently work at Persistent Systems. I'm also pursuing a Master's degree in Computer Science, further expanding my knowledge and skills in the field.</p>
             <p><strong><a href="https://github.com/yashTEF" target="_blank">Check out my GitHub profile</a></strong></p>
+        </section>
+
+        <section class="section">
+            <h2>Education</h2>
+            <div class="education">
+                <h3 class="degree">Master of Science in Computer Science</h3>
+                <p class="edu-period">Current</p>
+                <p>International Institute of Information Technology (IIIT), Hyderabad, India</p>
+            </div>
+            <!-- You can add your undergraduate degree here if you'd like -->
         </section>
 
         <section class="section">
