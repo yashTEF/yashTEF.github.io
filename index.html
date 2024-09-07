@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yash Bharatiya</title>
+    <title>Yash's Portfolio</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -18,9 +18,22 @@
             background-color: #004a99; /* Deep blue background for header */
             color: #ffffff; /* White text */
             padding: 20px;
-            text-align: center;
+            display: flex;
+            align-items: center;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .profile-container {
+            display: flex;
+            align-items: center;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #ffffff; /* White border */
+            margin-right: 20px;
         }
         h1 {
             font-size: 2.5rem;
@@ -74,19 +87,6 @@
             margin-top: 30px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        .profile-pic {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 4px solid #ffffff; /* White border */
-            margin-bottom: 10px;
-        }
-        .profile-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
         .job:hover, .education:hover {
             background-color: #f0f0f0; /* Light gray on hover */
         }
@@ -99,8 +99,10 @@
     <header>
         <div class="profile-container">
             <img src="profile-pic.jpeg" alt="Profile Picture" class="profile-pic">
-            <h1>Yash Bharatiya</h1>
-            <h2>Graduate Student | Software Engineer | GSoC Participant</h2>
+            <div>
+                <h1>Yash Bharatiya</h1>
+                <h2>Graduate Student | Software Engineer | GSoC Participant</h2>
+            </div>
         </div>
     </header>
 
@@ -196,7 +198,7 @@
         <h2>Contact</h2>
         <p>If you have any questions or would like to collaborate, feel free to reach out!</p>
         <p>Email: <a href="mailto:yashbharatiya@gmail.com">yashbharatiya@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/yash-bharatiya-a285a61a9/?originalSubdomain=in" target="_blank">Yash Bharatiya</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/yash-bharatiya-a285a61a3/" target="_blank">Yash Bharatiya</a></p>
     </footer>
 </body>
 </html>
