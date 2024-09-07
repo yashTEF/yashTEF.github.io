@@ -57,6 +57,21 @@
             text-decoration: underline;
             color: #003366; /* Darker blue on hover */
         }
+        nav {
+            background-color: #003366; /* Darker blue for nav */
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: #ffffff; /* White text for links */
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+            color: #e0e0e0; /* Light gray on hover */
+        }
         .section {
             margin-bottom: 30px;
             background-color: #ffffff; /* White background for sections */
@@ -107,14 +122,23 @@
         </div>
     </header>
 
+    <nav>
+        <a href="#about-me">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Professional Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
     <main>
-        <section class="section">
+        <section class="section" id="about-me">
             <h2>About Me</h2>
             <p>Hello! I'm Yash, a passionate software engineer with experience in full-stack development, cloud technologies, and open-source contributions. I've participated in Google Summer of Code twice and previously worked at Persistent Systems from 2022 to 2024. I'm currently pursuing a Master of Technology in Computer Science at the International Institute of Information Technology (IIIT), Hyderabad, India.</p>
             <p><strong><a href="https://github.com/yashTEF" target="_blank">Check out my GitHub profile</a></strong></p>
         </section>
 
-        <section class="section">
+        <section class="section" id="education">
             <h2>Education</h2>
             <div class="education">
                 <h3 class="degree">Master of Technology in Computer Science</h3>
@@ -123,7 +147,7 @@
             </div>
         </section>
 
-        <section class="section">
+        <section class="section" id="skills">
             <h2>Skills</h2>
             <ul>
                 <li>Full-stack Development</li>
@@ -140,7 +164,7 @@
             </ul>
         </section>
 
-        <section class="section">
+        <section class="section" id="experience">
             <h2>Professional Experience</h2>
             
             <div class="job">
@@ -183,23 +207,30 @@
             </div>
         </section>
 
-        <section class="section">
+        <section class="section" id="projects">
             <h2>Projects</h2>
             <p>Here are some key projects I've worked on:</p>
             <ul>
-                <li><strong>Patient Portal Platform:</strong> A robust system facilitating seamless patient-provider interactions, with optimized database queries and RESTful APIs.</li>
-                <li><strong>Contract Management Module:</strong> An automated workflow system reducing manual errors by 50% in healthcare contract management.</li>
-                <li><strong>Eclipse Cargo Tracker:</strong> Enhanced design and user experience of this open-source project, improving performance and mobile responsiveness.</li>
-                <li><strong>Eclipse Export Functionality:</strong> Implemented high-quality SVG exports and optimized R-Script exports for improved data visualization.</li>
+                <li><strong>Patient Portal Platform:</strong> A robust system facilitating seamless patient-provider interactions.</li>
+                <li><strong>Contract Management Module:</strong> A module for automating workflow processes in a patient portal platform.</li>
+                <li><strong>SVG Template Export:</strong> Implementation of SVG export for enhanced image quality.</li>
+                <li><strong>Design Enhancement for Eclipse Cargo Tracker:</strong> Modernizing design and navigation elements.</li>
+            </ul>
+        </section>
+
+        <section class="section" id="contact">
+            <h2>Contact</h2>
+            <p>You can reach me at:</p>
+            <ul>
+                <li>Email: <a href="mailto:yash@example.com">yash@example.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/yash-bharatiya" target="_blank">linkedin.com/in/yash-bharatiya</a></li>
+                <li>GitHub: <a href="https://github.com/yashTEF" target="_blank">github.com/yashTEF</a></li>
             </ul>
         </section>
     </main>
 
     <footer>
-        <h2>Contact</h2>
-        <p>If you have any questions or would like to collaborate, feel free to reach out!</p>
-        <p>Email: <a href="mailto:yashbharatiya@gmail.com">yashbharatiya@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/yash-bharatiya-a285a61a9/?originalSubdomain=in" target="_blank">Yash Bharatiya</a></p>
+        <p>&copy; 2024 Yash Bharatiya</p>
     </footer>
 </body>
 </html>
