@@ -22,10 +22,12 @@
         }
         h1 {
             color: #ffffff; /* White text */
-            font-size: 1.5rem;
+            font-size: 1.8rem;
+            margin: 0;
         }
         h2 {
             color: #33cc33; /* Light green subheading */
+            margin-top: 5px;
         }
         h3 {
             color: #80ff80; /* Lighter green job/degree title */
@@ -34,4 +36,165 @@
             color: #33cc33; /* Light green links */
             text-decoration: none;
         }
-        a
+        a:hover {
+            text-decoration: underline;
+            color: #99ff99; /* Lighter green on hover */
+        }
+        .section {
+            margin-bottom: 30px;
+            background-color: #1a1a1a; /* Dark grayish-black section background */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        .job, .education {
+            margin-bottom: 20px;
+            border-left: 4px solid #33cc33; /* Light green border */
+            padding-left: 15px;
+        }
+        .job-title, .degree {
+            font-weight: bold;
+            color: #80ff80; /* Lighter green */
+        }
+        .job-period, .edu-period {
+            font-style: italic;
+            color: #999999; /* Gray for dates */
+        }
+        ul {
+            padding-left: 20px;
+        }
+        footer {
+            background-color: #1a1a1a; /* Dark grayish-black footer */
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        /* Profile picture styling */
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #ffffff; /* White border */
+            margin-bottom: 10px;
+        }
+        .profile-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        /* Hover Effects */
+        .job:hover, .education:hover {
+            background-color: #003300; /* Dark green hover */
+        }
+        a:hover {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="profile-container">
+            <img src="profile-pic.jpeg" alt="Profile Picture" class="profile-pic">
+            <h1>Yash Bharatiya</h1>
+            <h2>Graduate Student | Software Engineer | GSoC Participant</h2>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <h2>About Me</h2>
+            <p>Hello! I'm Yash, a passionate software engineer with experience in full-stack development, cloud technologies, and open-source contributions. I've participated in Google Summer of Code twice and previously worked at Persistent Systems from 2022 to 2024. I'm currently pursuing a Master of Technology in Computer Science at the International Institute of Information Technology (IIIT), Hyderabad, India.</p>
+            <p><strong><a href="https://github.com/yashTEF" target="_blank">Check out my GitHub profile</a></strong></p>
+        </section>
+
+        <section class="section">
+            <h2>Education</h2>
+            <div class="education">
+                <h3 class="degree">Master of Technology in Computer Science</h3>
+                <p class="edu-period">Current</p>
+                <p>International Institute of Information Technology (IIIT), Hyderabad, India</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Full-stack Development</li>
+                <li>Cloud Technologies (AWS)</li>
+                <li>Database Design and Optimization</li>
+                <li>RESTful API Development</li>
+                <li>SCRUM and Agile Methodologies</li>
+                <li>UI/UX Design</li>
+                <li>Performance Optimization</li>
+                <li>Version Control (Git)</li>
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Professional Experience</h2>
+            
+            <div class="job">
+                <h3 class="job-title">Software Engineer</h3>
+                <p class="job-period">Aug 2022 – Jul 2024</p>
+                <p>Persistent Systems, Pune, India</p>
+                <ul>
+                    <li>Collaborated within a SCRUM team to innovate and deliver a robust patient portal platform, facilitating seamless patient-provider interactions.</li>
+                    <li>Engineered database schemas and optimized queries on AWS RDS, enhancing data retrieval efficiency by 30%.</li>
+                    <li>Leveraged AWS services to architect and deploy RESTful APIs, streamlining communication channels and reducing latency by 25%.</li>
+                    <li>Led the design and development of the contract management module, automating workflow processes and reducing manual errors by 50%.</li>
+                    <li>Demonstrated initiative and accountability by taking ownership of the contract management module, ensuring its successful integration into the patient portals platform.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3 class="job-title">Google Summer of Code 2023 Participant</h3>
+                <p class="job-period">May 2023 – Sep 2023</p>
+                <p>Eclipse Foundation, Remote, India</p>
+                <ul>
+                    <li>Led enhancement of Eclipse Cargo Tracker project's design and user experience.</li>
+                    <li>Implemented modern design elements and navigation enhancements, boosting user engagement.</li>
+                    <li>Upgraded to Primefaces version 12.0.0, reducing system bugs and improving performance.</li>
+                    <li>Resolved critical bugs, ensuring responsive navigation and mobile-friendly design, enhancing user satisfaction.</li>
+                    <li>Initiated exploration of future UI enhancements and integration of modern tooling for improved functionality.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3 class="job-title">Google Summer of Code 2020 Participant</h3>
+                <p class="job-period">May 2020 – Sep 2020</p>
+                <p>Eclipse Foundation, Remote, India</p>
+                <ul>
+                    <li>Implemented SVG Template Export for high-quality image exports.</li>
+                    <li>Enhanced Export Settings for dynamic series selection.</li>
+                    <li>Optimized R-Script Export for performance and visualization.</li>
+                    <li>Integrated Inkscape Templates for consistent export formatting.</li>
+                    <li>Conducted testing, bug fixing, and collaborated for future enhancements.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Projects</h2>
+            <p>Here are some key projects I've worked on:</p>
+            <ul>
+                <li><strong>Patient Portal Platform:</strong> A robust system facilitating seamless patient-provider interactions, with optimized database queries and RESTful APIs.</li>
+                <li><strong>Contract Management Module:</strong> An automated workflow system reducing manual errors by 50% in healthcare contract management.</li>
+                <li><strong>Eclipse Cargo Tracker:</strong> Enhanced design and user experience of this open-source project, improving performance and mobile responsiveness.</li>
+                <li><strong>Eclipse Export Functionality:</strong> Implemented high-quality SVG exports and optimized R-Script exports for improved data visualization.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Contact</h2>
+        <p>If you have any questions or would like to collaborate, feel free to reach out!</p>
+        <p>Email: <a href="mailto:yashbharatiya@gmail.com">yashbharatiya@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/yash" target="_blank">linkedin.com/in/yash</a></p>
+    </footer>
+</body>
+</html>
